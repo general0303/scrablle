@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText00"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FF0000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText01"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText02"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText03"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText04"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText05"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText06"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText07"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FF0000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText08"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText09"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText0A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText0B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText0C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText0D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText0E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FF0000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFF00"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFF00"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText1A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText1B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText1C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText1D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText1E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText27"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText28"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText29"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText2A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText2B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText2C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText2D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText2E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText30"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText31"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText33"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText34"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText35"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText36"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText37"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText38"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText39"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText3A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText3B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText3C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText3D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText3E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText40"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText41"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText42"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText43"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText44"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText45"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText46"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText47"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText48"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText49"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText4A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText4B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText4C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText4D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText4E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText50"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText51"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFF00"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText52"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText53"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText54"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText55"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText56"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText57"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText58"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText59"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText5A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText5B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText5C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText5D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFF00"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText5E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText60"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText61"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText62"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText63"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText64"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText65"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText66"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText67"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText68"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText69"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText6A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText6B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText6C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText6D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText6E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText70"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FF0000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText71"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText72"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText73"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText74"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText75"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText76"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText77"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#888888"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText78"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText79"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText7A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText7B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText7C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText7D"
+                android:layout_width="45dp"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText7E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FF0000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText80"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText81"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText82"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText83"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText84"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText85"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText86"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText87"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText88"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText89"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText8A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText8B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText8C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText8D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText8E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText90"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/editText91"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFF00"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText92"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText93"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText94"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText95"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText96"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText97"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText98"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText99"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText9A"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText9B"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText9C"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText9D"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFF00"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editText9E"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextA0"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA1"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA3"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA4"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA5"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA6"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA7"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA8"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextA9"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextAA"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextAB"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextAC"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextAD"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextAE"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextB0"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB1"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB3"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB4"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB5"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB6"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB7"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB8"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextB9"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextBA"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextBB"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextBC"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextBD"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextBE"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextC0"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC1"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC3"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC4"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC5"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC6"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC7"
+                android:layout_width="47dp"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC8"
+                android:layout_width="55dp"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextC9"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextCA"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextCB"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextCC"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextCD"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextCE"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextD0"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD1"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD3"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD4"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD5"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFF00"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD6"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD7"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD8"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextD9"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FFFF00"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextDA"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextDB"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextDC"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextDD"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#0000FF"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextDE"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextE0"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FF0000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE1"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE3"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE4"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE5"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE6"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE7"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FF0000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE8"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextE9"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextEA"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextEB"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#00FF00"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextEC"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextED"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#000000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editTextEE"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#FF0000"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="162dp"
+            android:layout_marginRight="162dp"
+            android:layout_marginBottom="86dp"
+            android:text="ENDTURN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/cletters"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.981" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="412dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:text="Player has 0 points   Computer has 0 points"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/wordent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="165dp"
+            android:text="Player turn"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/clet"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/cletters"
+            android:layout_width="142dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="209dp"
+            android:layout_marginRight="209dp"
+            android:layout_marginBottom="95dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/confword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clet" />
+
+        <TextView
+            android:id="@+id/letters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="4dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/clet"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/clet"
+            android:layout_width="120dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="167dp"
+            android:layout_marginRight="167dp"
+            android:layout_marginBottom="59dp"
+            android:text="change letters"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/confirm"
+            app:layout_constraintEnd_toEndOf="@+id/cletters"
+            app:layout_constraintEnd_toStartOf="@+id/wordent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="42dp"
+            android:text="confirm"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/cletters" />
+
+        <EditText
+            android:id="@+id/wordent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/confword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/clet"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/confword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="84dp"
+            android:text="get points"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cletters"
+            app:layout_constraintTop_toBottomOf="@+id/wordent" />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:text="check word"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/start"
+            app:layout_constraintStart_toStartOf="@+id/confword"
+            app:layout_constraintTop_toBottomOf="@+id/confword" />
+
+        <Button
+            android:id="@+id/newgame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="161dp"
+            android:layout_marginRight="161dp"
+            android:layout_marginBottom="3dp"
+            android:text="new game"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/helper"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <Button
+            android:id="@+id/helper"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:text="helper"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toStartOf="@+id/newgame"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cletters" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginLeft="133dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginRight="49dp"
+            android:text="start"
+            android:textSize="8sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/check"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
