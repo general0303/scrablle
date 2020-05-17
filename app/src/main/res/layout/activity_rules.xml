@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rules">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text='1) ПРАВИЛА ИГРЫ. Слова можно составлять только из выпавших вам букв. Первое слово должно пройти через центр, последующие слова должны в обязательном порядке пересекаться хотя бы с одной буквой на поле. В клетке на поле не может быть более одной буквы. Также вы должны проверить составленное слово на осмысленность. Для этого заглавными буквами введите слово в поле для слов (при использовании помощника слово появится в строке автоматически) и нажмите "check word". Если слово существует, введите его на игровое поле и нажмите на "get points" для подсчета очков. Если вам не нравятся ваши буквы, вы можете поменять их, использовав кнопку "change letters". Чтобы закончить ход, нажмите "endturn". Игра будет продолжаться, пока выдаваемые буквы не закончатся или не будет нажата кнопка "new game". Помощник "helper" поможет составить оптимальное слово.'
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="10dp"
+        android:text="1) RULES OF THE GAME. Words can only be made up of the letters that fall out to you. The first word must pass through the center, and subsequent words must necessarily intersect with at least one letter on the field. A cell on the field can't contain more than one letter. You should also check the word for meaning. To do this, enter the word in the word field in capital letters (when using the assistant, the word will appear in the line automatically) and click &quot;check word&quot;. If the word exists, enter it on the game Board and click on &quot;get points&quot; to score points. If you don't like your letters, you can change them by using the &quot;change letters&quot;button. To end a move, click &quot;endturn&quot;. The game will continue until the given letters run out or the &quot;new game&quot; button is pressed. The helper tool helps you create the best word"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="2) ПОДСЧЕТ ОЧКОВ. Каждая буква стоит определенное количество очков. 1 очко: A, E, I, L, N, O, R, S, T, U; 2 очка: D, G; 3 очка: B, C, M, P; 4 очка: F, H, V, W, Y; 5 очков: K; 8 очков: J, X; 10 очков: Q, Z. При размещении буквы на зеленой клетке стоимость буквы удваивается; на желтой - утраивается. Если слово проходит через синюю клетку, его стоимость удваивается; через красную - утраивается. При использовании за 1 ход всех 7 букв вы получите дополнительно 15 очков."
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="128dp"
+        android:text="2) SCORING. Each letter is worth a certain number of points. 1 point: A, E, I, L, N, O, R, S, T, U; 2 points: D, G; 3 points: B, C, M, P; 4 points: F, H, V, W, Y; 5 points: K; 8 points: J, X; 10 points: Q, Z. When placing a letter on a green square, the value of the letter is doubled; on a yellow square, it is tripled. If a word passes through the blue square, its value is doubled; if it passes through the red square, it is tripled. If you use all 7 letters in 1 turn, you will get an additional 15 points."
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="129dp"
+        android:text="Return to the main menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
