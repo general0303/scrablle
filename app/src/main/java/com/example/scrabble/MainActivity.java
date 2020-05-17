@@ -8,9 +8,10 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btn2, btn3, btn4, btnc;
+    Button btn2, btn3, btn4, btnc, rul;
     public int m=0;
     public boolean flag=false;
+    public boolean flag1=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn3.setOnClickListener(this);
         btn4.setOnClickListener(this);
         btnc.setOnClickListener(this);
+        rul=findViewById(R.id.rules);
+        rul.setOnClickListener(this);
     }
 
     @Override
@@ -32,15 +35,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button3: { m=3; break;}
             case R.id.button4: { m=4; break;}
             case R.id.buttonc: { m=2; flag=true; break;}
+            case R.id.rules: {flag1=true; break;}
         }
         Intent other;
-        if (!flag) {
-            game.setm(m);
-            other = new Intent(this, game.class);
-        }
+        if (flag1) other = new Intent(this, Rules.class);
         else {
-            computergame.setm(m);
-            other = new Intent(this, computergame.class);
+            if (!flag) {
+                game.setm(m);
+                other = new Intent(this, game.class);
+            } else {
+                computergame.setm(m);
+                other = new Intent(this, computergame.class);
+            }
         }
         startActivity(other);
     }
