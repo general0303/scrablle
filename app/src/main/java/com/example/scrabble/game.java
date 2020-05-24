@@ -314,46 +314,44 @@ public class game extends AppCompatActivity implements View.OnClickListener {
         int[] a=new int[7];
         for (int i = 0; i < 7; i++)
             a[i] = letp[r][i];
-        if (flag) {
-            if (napr == 'h') {
-                for (int i = x - 1; i < x - 1 + s2.length(); i++) {
-                    if (p[y - 1][i].equals("") || p[y - 1][i].equals(" ")) {
-                        boolean flag2 = false;
-                        for (int j = 0; j < 7; j++)
-                            if (a[j] == s2.charAt(i - x + 1)) {
-                                flag2 = true;
-                                a[j] = '-';
-                                break;
-                            }
-                        if (!flag2) {
-                            s3 = "You have not letter " + s2.charAt(i - x + 1)+"\n";
-                            Toast.makeText(getApplicationContext(), s3, Toast.LENGTH_LONG).show();
-                            flag = false;
+        if (napr == 'h') {
+            for (int i = x - 1; i < x - 1 + s2.length(); i++) {
+                if (p[y - 1][i].equals("") || p[y - 1][i].equals(" ")) {
+                    boolean flag2 = false;
+                    for (int j = 0; j < 7; j++)
+                        if (a[j] == s2.charAt(i - x + 1)) {
+                            flag2 = true;
+                            a[j] = '-';
+                            break;
                         }
+                    if (!flag2) {
+                        s3 = "You have not letter " + s2.charAt(i - x + 1)+"\n";
+                        Toast.makeText(getApplicationContext(), s3, Toast.LENGTH_LONG).show();
+                        flag = false;
                     }
-                    else { if (!p[y - 1][i].equals(""))  flag1 = true; }
-                    if (p[y - 1][i].equals(" ")) flag1 = true;
                 }
+                else { if (!p[y - 1][i].equals(""))  flag1 = true; }
+                if (p[y - 1][i].equals(" ")) flag1 = true;
             }
-            else {
-                for (int i = y - 1; i < y - 1 + s2.length(); i++) {
-                    if (p[i][x - 1].equals("")  || (p[i][x - 1].equals(" "))) {
-                        boolean flag2 = false;
-                        for (int j = 0; j < 7; j++)
-                            if (a[j] == s2.charAt(i - y + 1)) {
-                                flag2 = true;
-                                a[j] = '-';
-                                break;
-                            }
-                        if (!flag2) {
-                            s3 = "You have not letter " + s2.charAt(i - y + 1)+"\n";
-                            Toast.makeText(getApplicationContext(), s3, Toast.LENGTH_LONG).show();
-                            flag = false;
+        }
+        else {
+            for (int i = y - 1; i < y - 1 + s2.length(); i++) {
+                if (p[i][x - 1].equals("")  || (p[i][x - 1].equals(" "))) {
+                    boolean flag2 = false;
+                    for (int j = 0; j < 7; j++)
+                        if (a[j] == s2.charAt(i - y + 1)) {
+                            flag2 = true;
+                            a[j] = '-';
+                            break;
                         }
+                    if (!flag2) {
+                        s3 = "You have not letter " + s2.charAt(i - y + 1)+"\n";
+                        Toast.makeText(getApplicationContext(), s3, Toast.LENGTH_LONG).show();
+                        flag = false;
                     }
-                    else { if (!p[i][x - 1].equals("")) flag1=true; }
-                    if (p[i][x - 1].equals(" ")) flag1 = true;
                 }
+                else { if (!p[i][x - 1].equals("")) flag1=true; }
+                if (p[i][x - 1].equals(" ")) flag1 = true;
             }
         }
         if (!flag1) {
@@ -721,7 +719,6 @@ public class game extends AppCompatActivity implements View.OnClickListener {
                                 break;
                             s4 = s4 + ed[i][j+k].getText().toString();
                             if (s4.equals(enterword.getText().toString()) && i==w1 && j+k>=u1 && j<=u1) {
-                                w1=i;
                                 u1=j;
                                 napr = 'h';
                                 break;
